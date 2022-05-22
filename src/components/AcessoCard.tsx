@@ -1,6 +1,7 @@
 function AcessoCard(props){
     return(
         <div>
-            <p> {props.acesso}</p>
+            <p> {props.titulo}</p>
+            
         </div>)
 }export default AcessoCard;
