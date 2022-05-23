@@ -1,7 +1,9 @@
-function AcessoCard(props){
+function AcessoCard(props:any){
     return(
         <div>
-            <p> {props.titulo}</p>
+            <h1> {props.codigo}</h1>
+            <p> {props.descricao} </p>
+            <p> {props.data}</p>
             
         </div>)
 }export default AcessoCard;
